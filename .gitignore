@@ -1,0 +1,19 @@
+*.o
+*.a
+*.so
+*.test
+*.prof
+*.out
+
+vendor/
+tmp/
+
+# IDE specific files
+.vscode
+.idea
+/idea
+
+# build output
+air
+
+logs
