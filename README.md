@@ -3,12 +3,11 @@
 # Cycle-detect
 
 English | [Türkçe](README-tr_tr.md) 
-___
+
 ## Motivation
 Hi there! I'm Eray, a software developer who is new to Golang. I was fascinated by the language, but I often encountered import cycle errors which became a problem for me over time. Especially after writing code for a long time, tracking these errors in a project made it difficult to track the import statements used.
 
 Based on this problem I experienced, I thought: Why not have a project that shows directly in which file the import cycles are? With this idea, I created this project to prevent people from facing similar problems and to offer a more efficient development process. This way, you can quickly identify and resolve import cycle errors, making the development process smoother.
-___
 ## Getting Started
 Cycle detect is a process that aims to detect cyclic dependencies in import operations within the source code of a program. In other words, it is an analysis process that determines the situation where a module or package directly or indirectly imports another module and this operation creates a loop. Cycle detect guides software developers to resolve such dependencies by identifying the problem in advance in terms of code organization and maintenance.
 
