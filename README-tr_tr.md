@@ -1,6 +1,4 @@
-<div style="float: right; margin-left: 20px;">
-  <img src="docs/cycle-detect.png" alt="Cycle Detect Image" width="300" height="300">
-</div>
+<img src="docs/cycle-detect.png" align="right" width="300" height="300"/>
 
 # Cycle-detect
 [English](README.md) | Türkçe
